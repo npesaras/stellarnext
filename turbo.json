@@ -3,8 +3,9 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
+      "env": ["SUPABASE_URL", "SUPABASE_PUBLISHABLE_KEY"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": ["dist/**"]
+      "outputs": [".output/**", "dist/**"]
     },
     "typecheck": {
       "dependsOn": ["^build"],
