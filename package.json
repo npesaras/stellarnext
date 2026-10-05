@@ -1,0 +1,22 @@
+{
+  "name": "stellarjob-workspace",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev --filter=@stellarjob/web",
+    "dev:web": "pnpm --filter @stellarjob/web dev",
+    "build": "turbo run build",
+    "preview": "pnpm --filter @stellarjob/web preview",
+    "test": "pnpm --filter @stellarjob/web test",
+    "typecheck": "turbo run typecheck",
+    "check": "pnpm typecheck && pnpm test && pnpm build && pnpm format:check",
+    "format": "turbo run format",
+    "format:check": "turbo run format:check"
+  },
+  "devDependencies": {
+    "turbo": "2.8.20"
+  }
+}
