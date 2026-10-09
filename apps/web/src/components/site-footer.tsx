@@ -45,7 +45,7 @@ export function SiteFooter() {
         </nav>
       </div>
       <div className="border-t py-4 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} StellarJob. Built for better career starts.
+        © {new Date().getFullYear()} StellarNext. Built for better career starts.
       </div>
     </footer>
   );

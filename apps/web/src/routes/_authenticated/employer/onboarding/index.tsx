@@ -51,7 +51,7 @@ export const Route = createFileRoute("/_authenticated/employer/onboarding/")({
   },
   loader: () => getCompanyFn(),
   component: EmployerOnboardingPage,
-  head: () => ({ meta: [{ title: "Company setup — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Company setup — StellarNext" }] }),
 });
 
 type Step = "basics" | "details" | "done";
@@ -339,7 +339,7 @@ function EmployerOnboardingPage() {
             <CheckCircle2 className="text-success" aria-hidden="true" />
             <CardTitle>Company profile ready</CardTitle>
             <CardDescription>
-              {name || "Your company"} has been saved to StellarJob.
+              {name || "Your company"} has been saved to StellarNext.
             </CardDescription>
           </CardHeader>
           <CardContent>

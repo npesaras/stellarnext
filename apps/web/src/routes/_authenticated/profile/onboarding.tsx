@@ -28,7 +28,7 @@ export const Route = createFileRoute("/_authenticated/profile/onboarding")({
   },
   loader: () => getProfileFn(),
   component: ProfileOnboardingPage,
-  head: () => ({ meta: [{ title: "Build your profile — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Build your profile — StellarNext" }] }),
 });
 
 function ProfileOnboardingPage() {
@@ -155,7 +155,7 @@ function ProfileOnboardingPage() {
         </Badge>
         <h1 className="text-3xl font-semibold tracking-tight">{step.label}</h1>
         <p className="max-w-2xl text-muted-foreground">
-          Build one reusable profile for every StellarJob application. Each step
+          Build one reusable profile for every StellarNext application. Each step
           is saved before you continue.
         </p>
         <Progress

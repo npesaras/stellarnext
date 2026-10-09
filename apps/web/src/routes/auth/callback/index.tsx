@@ -48,7 +48,7 @@ export const Route = createFileRoute("/auth/callback/")({
     }
   },
   component: GoogleCallbackPage,
-  head: () => ({ meta: [{ title: "Completing sign-in — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Completing sign-in — StellarNext" }] }),
 });
 
 function GoogleCallbackPage() {

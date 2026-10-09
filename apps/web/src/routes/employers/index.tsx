@@ -16,7 +16,7 @@ import { listVerifiedCompaniesFn } from "@/lib/employer/public.functions";
 export const Route = createFileRoute("/employers/")({
   loader: () => listVerifiedCompaniesFn(),
   component: EmployersPage,
-  head: () => ({ meta: [{ title: "Hire talent — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Hire talent — StellarNext" }] }),
 });
 
 function EmployersPage() {
@@ -93,7 +93,7 @@ function EmployersPage() {
             {
               title: "Choose an employer account",
               description:
-                "Select the hiring path when creating your StellarJob account.",
+                "Select the hiring path when creating your StellarNext account.",
             },
             {
               title: "Describe your organization",
@@ -190,7 +190,7 @@ function EmployersPage() {
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-4 py-16 text-center sm:px-6 lg:px-8 lg:py-24">
           <Badge variant="secondary">Get started</Badge>
           <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
-            Put your company on StellarJob
+            Put your company on StellarNext
           </h2>
           <p className="max-w-xl text-muted-foreground">
             Start with a company profile that tells applicants who you are and
@@ -210,7 +210,7 @@ function EmployersPage() {
               )}
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link to="/about">About StellarJob</Link>
+              <Link to="/about">About StellarNext</Link>
             </Button>
           </div>
         </div>

@@ -41,7 +41,7 @@ export const Route = createFileRoute("/_authenticated/dashboard/")({
     return { applications, saved, listings };
   },
   component: DashboardPage,
-  head: () => ({ meta: [{ title: "Dashboard — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Dashboard — StellarNext" }] }),
 });
 
 function DashboardPage() {

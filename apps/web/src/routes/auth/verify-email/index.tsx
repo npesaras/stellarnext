@@ -18,7 +18,7 @@ import { resendSignupEmailFn } from "@/lib/auth/auth.functions";
 
 export const Route = createFileRoute("/auth/verify-email/")({
   component: VerifyEmailPage,
-  head: () => ({ meta: [{ title: "Verify your email — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Verify your email — StellarNext" }] }),
 });
 
 function VerifyEmailPage() {

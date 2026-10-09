@@ -34,7 +34,7 @@ export const Route = createFileRoute("/")({
   },
   component: HomePage,
   head: () => ({
-    meta: [{ title: "StellarJob — Find work that pays and matters" }],
+    meta: [{ title: "StellarNext — Find work that pays and matters" }],
   }),
 });
 
@@ -234,7 +234,7 @@ function HomePage() {
 
       <section className="mx-auto flex max-w-7xl flex-col gap-8 px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium text-primary">Why StellarJob</p>
+          <p className="text-sm font-medium text-primary">Why StellarNext</p>
           <h2 className="mt-2 text-3xl font-semibold tracking-tight">
             One place for the work around finding work
           </h2>
@@ -324,7 +324,7 @@ function HomePage() {
         <div className="max-w-2xl">
           <p className="text-sm font-medium text-primary">Our network</p>
           <h2 className="mt-2 text-3xl font-semibold tracking-tight">
-            Verified companies on StellarJob
+            Verified companies on StellarNext
           </h2>
           <p className="mt-3 text-muted-foreground">
             Explore the organizations currently visible in our employer network.

@@ -36,7 +36,7 @@ export const Route = createFileRoute("/_authenticated/profile/")({
   },
   loader: () => getProfileFn(),
   component: ProfilePage,
-  head: () => ({ meta: [{ title: "Profile — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Profile — StellarNext" }] }),
 });
 
 const monthYearFormatter = new Intl.DateTimeFormat("en-US", {

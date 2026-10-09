@@ -71,7 +71,7 @@ export function SiteHeader({ user }: { user: CurrentUser | null }) {
           </SheetTrigger>
           <SheetContent side="right">
             <SheetHeader>
-              <SheetTitle>Navigate StellarJob</SheetTitle>
+              <SheetTitle>Navigate StellarNext</SheetTitle>
               <SheetDescription>
                 Explore jobs, employers, and your workspace.
               </SheetDescription>

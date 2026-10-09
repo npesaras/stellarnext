@@ -27,13 +27,13 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "StellarJob — Better starts for meaningful careers" },
+      { title: "StellarNext — Better starts for meaningful careers" },
       {
         name: "description",
         content:
           "Explore live opportunities and track your path from application to meaningful work.",
       },
-      { property: "og:title", content: "StellarJob" },
+      { property: "og:title", content: "StellarNext" },
       {
         property: "og:description",
         content: "Better starts for meaningful careers.",

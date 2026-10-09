@@ -59,7 +59,7 @@ export const Route = createFileRoute("/sign-in/")({
       : {}),
   }),
   component: SignInPage,
-  head: () => ({ meta: [{ title: "Join or sign in — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Join or sign in — StellarNext" }] }),
 });
 
 function SignInPage() {
@@ -175,7 +175,7 @@ function SignInPage() {
         {mode === "signup" && step === "role" ? (
           <div className="w-full max-w-3xl text-center">
             <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              How will you use StellarJob?
+              How will you use StellarNext?
             </h1>
             <p className="mt-3 text-muted-foreground">
               Choose the workspace you want to create.
@@ -262,7 +262,7 @@ function SignInPage() {
                 </CardTitle>
                 <CardDescription>
                   {mode === "signup"
-                    ? "Create your StellarJob account to get started."
+                    ? "Create your StellarNext account to get started."
                     : "Sign in to manage your profile and applications."}
                 </CardDescription>
               </CardHeader>
@@ -436,7 +436,7 @@ function SignInPage() {
             <p className="mt-6 text-center text-sm text-muted-foreground">
               {mode === "signup"
                 ? "Already have an account?"
-                : "New to StellarJob?"}{" "}
+                : "New to StellarNext?"}{" "}
               <Link
                 to="/sign-in"
                 search={{ mode: mode === "signup" ? "signin" : "signup" }}

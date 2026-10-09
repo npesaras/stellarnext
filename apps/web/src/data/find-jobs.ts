@@ -18,7 +18,7 @@ export const JOURNEY_STEPS: JourneyStep[] = [
   {
     key: "apply",
     title: "Apply",
-    desc: "To multiple listings with your StellarJob profile.",
+    desc: "To multiple listings with your StellarNext profile.",
   },
   {
     key: "track",

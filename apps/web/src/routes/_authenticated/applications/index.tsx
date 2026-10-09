@@ -45,7 +45,7 @@ export const Route = createFileRoute("/_authenticated/applications/")({
   },
   loader: () => listApplicationsFn(),
   component: ApplicationsPage,
-  head: () => ({ meta: [{ title: "Applications — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Applications — StellarNext" }] }),
 });
 
 type Application = Awaited<ReturnType<typeof listApplicationsFn>>[number];
@@ -101,7 +101,7 @@ function exportApplications(applications: Application[]) {
   );
   const anchor = document.createElement("a");
   anchor.href = url;
-  anchor.download = "stellarjob-applications.csv";
+  anchor.download = "stellarnext-applications.csv";
   anchor.click();
   window.setTimeout(() => URL.revokeObjectURL(url), 0);
 }
@@ -246,7 +246,7 @@ function ApplicationsPage() {
             My applications
           </h1>
           <p className="mt-2 text-muted-foreground">
-            Track roles you applied for from this StellarJob account.
+            Track roles you applied for from this StellarNext account.
           </p>
         </div>
         <div className="flex flex-wrap gap-2">

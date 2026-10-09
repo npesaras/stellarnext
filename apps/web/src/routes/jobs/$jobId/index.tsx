@@ -55,7 +55,7 @@ export const Route = createFileRoute("/jobs/$jobId/")({
   },
   component: JobDetailPage,
   head: ({ loaderData }) => ({
-    meta: [{ title: `${loaderData?.job.title ?? "Job"} — StellarJob` }],
+    meta: [{ title: `${loaderData?.job.title ?? "Job"} — StellarNext` }],
   }),
 });
 

@@ -58,7 +58,7 @@ export const Route = createFileRoute("/find-jobs/")({
     };
   },
   component: FindJobsPage,
-  head: () => ({ meta: [{ title: "Find jobs — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Find jobs — StellarNext" }] }),
 });
 
 function FindJobsPage() {
@@ -87,7 +87,7 @@ function FindJobsPage() {
             Find your next role
           </h1>
           <p className="mt-4 max-w-2xl text-muted-foreground">
-            Search the roles currently available on StellarJob by title,
+            Search the roles currently available on StellarNext by title,
             keyword, company, or location.
           </p>
           <Card className="mt-8">
@@ -207,7 +207,7 @@ function FindJobsPage() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="mb-8 max-w-2xl">
             <p className="text-sm font-medium text-primary">
-              Your StellarJob journey
+              Your StellarNext journey
             </p>
             <h2 className="mt-2 text-3xl font-semibold tracking-tight">
               One clear path from search to offer

@@ -15,7 +15,7 @@ export function BrandMark({ className }: { className?: string }) {
       <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
         <Orbit aria-hidden="true" />
       </span>
-      <span className="text-lg">StellarJob</span>
+      <span className="text-lg">StellarNext</span>
     </Link>
   );
 }

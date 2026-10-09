@@ -20,7 +20,7 @@ export const Route = createFileRoute("/_authenticated/saved/")({
   },
   loader: () => listSavedJobsFn(),
   component: SavedJobsPage,
-  head: () => ({ meta: [{ title: "Saved jobs — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Saved jobs — StellarNext" }] }),
 });
 
 function SavedJobsPage() {

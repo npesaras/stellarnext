@@ -47,7 +47,7 @@ export const Route = createFileRoute("/_authenticated/jobs/$jobId/apply/")({
     return { job, profile };
   },
   component: ApplyPage,
-  head: () => ({ meta: [{ title: "Apply — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Apply — StellarNext" }] }),
 });
 
 function ApplyPage() {
@@ -92,7 +92,7 @@ function ApplyPage() {
         <CardHeader>
           <CardTitle>Your saved profile</CardTitle>
           <CardDescription>
-            Review the information currently saved to your StellarJob account.
+            Review the information currently saved to your StellarNext account.
           </CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-3 text-sm">
@@ -142,7 +142,7 @@ function ApplyPage() {
                 <Send aria-hidden="true" />
                 <AlertTitle>Review your profile first</AlertTitle>
                 <AlertDescription>
-                  Your StellarJob profile should be current before you apply.
+                  Your StellarNext profile should be current before you apply.
                 </AlertDescription>
               </Alert>
               {!user.onboardingComplete ? (

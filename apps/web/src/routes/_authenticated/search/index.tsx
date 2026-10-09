@@ -65,7 +65,7 @@ export const Route = createFileRoute("/_authenticated/search/")({
   loader: ({ deps }) => searchJobsFn({ data: deps }),
   component: SearchPage,
   pendingComponent: SearchPending,
-  head: () => ({ meta: [{ title: "Search jobs — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Search jobs — StellarNext" }] }),
 });
 
 function SearchFilters({ initial }: { initial: JobSearch }) {

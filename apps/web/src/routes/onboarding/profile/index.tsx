@@ -48,7 +48,7 @@ export const Route = createFileRoute("/onboarding/profile/")({
   },
   loader: () => getProfileBasicsFn(),
   component: ProfileStartPage,
-  head: () => ({ meta: [{ title: "Set up your profile — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "Set up your profile — StellarNext" }] }),
 });
 
 function ProfileStartPage() {
@@ -96,7 +96,7 @@ function ProfileStartPage() {
           Step 1 of 2
         </Badge>
         <h1 className="mt-4 text-center text-3xl font-semibold tracking-tight">
-          Welcome to StellarJob
+          Welcome to StellarNext
         </h1>
         <p className="mt-3 text-center text-muted-foreground">
           Your account is ready. Start with a few personal details, then build

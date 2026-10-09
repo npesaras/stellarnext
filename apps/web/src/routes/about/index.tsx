@@ -18,7 +18,7 @@ import {
 
 export const Route = createFileRoute("/about/")({
   component: AboutPage,
-  head: () => ({ meta: [{ title: "About — StellarJob" }] }),
+  head: () => ({ meta: [{ title: "About — StellarNext" }] }),
 });
 
 function AboutPage() {
@@ -33,7 +33,7 @@ function AboutPage() {
             Make every career start count.
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">
-            StellarJob brings job seekers and employers together through live
+            StellarNext brings job seekers and employers together through live
             opportunities, reusable profiles, and transparent application
             tracking.
           </p>
@@ -164,7 +164,7 @@ function AboutPage() {
 
       <section className="border-t bg-card">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-4 py-16 text-center sm:px-6 lg:px-8 lg:py-24">
-          <Badge variant="secondary">Explore StellarJob</Badge>
+          <Badge variant="secondary">Explore StellarNext</Badge>
           <h2 className="max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
             See where your next step could lead
           </h2>
